@@ -1,0 +1,55 @@
+<!DOCTYPE html>   <!-- it means we are working on HTML5-->
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <!--Define the character set used and it support English and Arabic-->
+    <meta charset="UTF-8" />
+    <!--Setting the viewport to make your website look good on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > 
+    <!-- content information-->
+    <meta name="Login Page" content="login page using HTML and CSS" >
+    <meta name="Auther" content="Neamat-Abdollah" >
+    <meta name="description" content="Login Page using HTML and CSS" >
+    <meta name="Nationality" content="Egyption" />
+    <!--Define keywords for search engines-->
+    <meta name="keywords" content="HTML, CSS, JavaScript, web, portfolio, developer, front-end ,login">
+    <meta name="robots" content="index,follow" >
+    <meta property="og:title" content="Login Page" >
+    <meta property="og:description" content="Login Page using HTML and CSS" >
+    <meta property="og:image" content="logo.png" >
+    <meta property="og:url" content="" >
+    <meta property="og:type" content="website" >
+    <link rel="icon" type="image/x-icon" href="images/logo.png">   
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <h1>Login</h1>
+      </div>
+      <div id="form_container">
+        <form>
+          <label for="email" class="typing">Email <span>*</span>:</label><br>
+          <input type="email" id="email"  name="email" placeholder="example@gmail.com" required><br><br>
+          <label for="pass" class="typing">Password <span>*</span>:</label><br>
+          <input type="password" id="pass" name="password" placeholder="Enter your password" required><br>
+          <label id="forgot">forgot password?</label>
+          <!-- <button type="button">Login</button> -->
+           <input type="submit" value="Login">
+        </form>
+      </div> 
+      
+      <div>
+        <p>Or Sign Up Using</p>
+        <a href="#" class="fa fa-facebook" title="Facebook Account"></a>
+        <a href="#" class="fa fa-twitter" title="Twitter Account"></a>
+        <a href="#" class="fa fa-google" title="Google Account"></a>
+        
+        <p>Or Sign Up Using</p>
+        <a class="signUp" href="#">Sign up</a>
+      </div>
+    </div>
+    
+  </body>
+</html>
