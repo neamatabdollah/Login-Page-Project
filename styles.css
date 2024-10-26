@@ -117,8 +117,8 @@ div p {
     width: 420px;
   } 
 }
- /* for screen smaller than 400px  */
- @media only screen and (max-width: 400px) {
+ /* for screen smaller than 420px  */
+ @media only screen and (max-width: 420px) {
   input {
     font-size: 8px;
   } 
