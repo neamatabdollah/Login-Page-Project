@@ -28,7 +28,7 @@ input {
   font-size: 16px;
   width: 100%;
   background-color: white;
-  padding: 12px 10px 12px 10px;
+  padding: 8px;
   margin: 5px auto;
 }
 input:hover {
@@ -51,12 +51,13 @@ left:0;
 }
 input[type="submit"] {
   background-color: aqua;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   width: 150px;
   margin: 45px auto;
+  font-size: 20px;
 }
 input[type="submit"]:hover {
   background-color: rgb(17, 228, 228);
@@ -120,6 +121,6 @@ div p {
  /* for screen smaller than 420px  */
  @media only screen and (max-width: 420px) {
   input {
-    font-size: 12px;
+    font-size: 14px;
   } 
 }
